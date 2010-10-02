@@ -1,21 +1,21 @@
 README
 ======
 
-These are Vim configs and scripts compiled by Brian Gershon (@brianfive) from various sources.
+These are Vim configs and scripts compiled by Brian Gershon [@brianfive](http://www.twitter.com/brianfive) from various sources.
 
-Inspired at PyCon 2010 by Python colleagues using Vim as their primary editor.
+Inspired to switch to Vim at PyCon 2010 by Python colleagues using Vim as their primary editor.
 
 Get the latest from [http://github.com/briangershon/dotfiles](http://github.com/briangershon/dotfiles)
 
-Favorite Sources of Vim Configuration
--------------------------------------
+My Current Favorite Sources of Vim Configuration Ideas
+------------------------------------------------------
 * Drew Neil [VimCasts.org](http://www.vimcasts.org/) [http://github.com/nelstrom/dotfiles](http://github.com/nelstrom/dotfiles)
 
 * Clayton Parker [@claytron](http://www.twitter.com/claytron) for his initial configs with a focus on Python [http://github.com/claytron/dotfiles](http://github.com/claytron/dotfiles)
 
-* [@AaronVanderlip](http://www.twitter.com/AaronVanderlip)
+* Aaron Vanderlip [@AaronVanderlip](http://www.twitter.com/AaronVanderlip)
 
-* [@__gotcha](http://www.twitter.com/__gotcha) [https://svn.plone.org/svn/collective/vimplone/branches/plippers-vim](https://svn.plone.org/svn/collective/vimplone/branches/plippers-vim)
+* Godefroid Chapelle [@__gotcha](http://www.twitter.com/__gotcha) [https://svn.plone.org/svn/collective/vimplone/branches/plippers-vim](https://svn.plone.org/svn/collective/vimplone/branches/plippers-vim)
 
 How I'm Using
 -------------
@@ -26,22 +26,22 @@ How I'm Using
 
    Which version is your MacVim currently using?
 
-   	In MacVim, type this:
+   In MacVim, type this:
 
-   		:python import sys; print sys.version
+        :python import sys; print sys.version
 
-   	If less than Python 2.5, you need to custom compile.
+   If less than Python 2.5, you need to custom compile.
 
    On SnowLeopard, this is how I compiled it:
 
-	* Read Building MacVim (from: http://code.google.com/p/macvim/wiki/Building)
+    * Read Building MacVim (from: http://code.google.com/p/macvim/wiki/Building)
         * Make sure xcodebuild is symlinked from /usr/bin to xcodebuilddebuild in /Developer/usr/bin
         * Clone the MacVim.git repo: git clone git://repo.or.cz/MacVim.git vim7
         * Configure and build Vim:
-		$ cd vim7/src
-		$ ./configure --with-features=huge --enable-pythoninterp --enable-rubyinterp --enable-gui-macvim
-		$ make
-	* To try it: open MacVim/build/Release/MacVim.app
+        $ cd vim7/src
+        $ ./configure --with-features=huge --enable-pythoninterp --enable-rubyinterp --enable-gui-macvim
+        $ make
+    * To try it: open MacVim/build/Release/MacVim.app
 
 1. Clone repository
   * `$ git clone git@github.com:briangershon/dotfiles.git`
