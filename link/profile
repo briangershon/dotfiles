@@ -1,0 +1,10 @@
+export PATH=$PATH:/Users/briangershon/Dropbox/brianscripts
+alias s='~/s/s.sh'
+
+alias gb="git for-each-ref --sort=-committerdate refs/heads/ --format='%(committerdate:short) %(authorname) %(refname:short)'"
+
+[[ -s /Users/briangershon/.nvm/nvm.sh ]] && . /Users/briangershon/.nvm/nvm.sh # This loads NVM
+
+if [ -f `brew --prefix`/etc/bash_completion ]; then
+    . `brew --prefix`/etc/bash_completion
+fi
