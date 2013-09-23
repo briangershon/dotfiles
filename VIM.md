@@ -5,8 +5,6 @@ These are Vim configs compiled by Brian Gershon [@brianfive](http://www.twitter.
 
 Inspired to switch to Vim at PyCon 2010 by Python colleagues using Vim as their primary editor.
 
-Get the latest from [http://github.com/briangershon/dotfiles](http://github.com/briangershon/dotfiles)
-
 My Current Favorite Sources of Vim Configuration Ideas
 ------------------------------------------------------
 * Drew Neil [VimCasts.org](http://www.vimcasts.org/) [http://github.com/nelstrom/dotfiles](http://github.com/nelstrom/dotfiles)
