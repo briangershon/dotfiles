@@ -1,11 +1,15 @@
 README
 ======
 
-These are configs and scripts compiled by Brian Gershon [@brianfive](http://www.twitter.com/brianfive) from various sources.
+These are my personal machine dotfiles for Linux and OSX.
 
-Get the latest from [http://github.com/briangershon/dotfiles](http://github.com/briangershon/dotfiles)
+## Installation
 
-Inspirations
+The latest are at [http://github.com/briangershon/dotfiles](http://github.com/briangershon/dotfiles)
+
+I install these via my [personal-linux-mint](http://github.com/briangershon/personal-linux-mint) Chef cookbook.
+
+## Inspirations
 
 * [http://dotfiles.github.io/](http://dotfiles.github.io/)
 
