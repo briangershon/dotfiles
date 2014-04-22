@@ -10,5 +10,8 @@ function src() {
     done
   fi
 }
-
 src
+
+export PATH="/usr/local/bin:$PATH"
+
+source "$HOME/dotfiles/link/bashrc_private"
