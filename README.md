@@ -1,7 +1,7 @@
 README
 ======
 
-These are my personal machine dotfiles for Linux and OSX.
+These are my personal dotfiles for Linux and OSX.
 
 ## Installation
 
