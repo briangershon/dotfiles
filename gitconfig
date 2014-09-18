@@ -10,7 +10,7 @@
   ci = commit
   br = branch
   co = checkout
-  df = diff
+  df = difftool --tool meld --dir-diff
   lp = log -p
   me = config user.name
   bn = !git for-each-ref --sort=-committerdate refs/heads/ --format='%(committerdate:short) %(authorname) %(refname:short)' | sed 10q
