@@ -1,7 +1,10 @@
 syntax on
 
+set t_Co=256
+
 try
-  colorscheme LuciusBlack
+  colorscheme lucius
+  LuciusBlackHighContrast
 catch
   " Nothing to see here.
 endtry
