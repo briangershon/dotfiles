@@ -1,2 +1,2 @@
-bashrc_private
+# don't save Vim bundles installed via Vundle
 bundle
