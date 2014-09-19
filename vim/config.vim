@@ -9,3 +9,7 @@ source $HOME/.vim/bundles.vim
 for f in split(glob('~/.vim/modules/*.vim'), '\n')
   exe 'source' f
 endfor
+
+set expandtab
+set shiftwidth=2
+set softtabstop=2

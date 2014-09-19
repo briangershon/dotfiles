@@ -8,6 +8,19 @@ Plugin 'gmarik/Vundle.vim'
 " Colour scheme.
 Plugin 'jonathanfilip/vim-lucius'
 
+Plugin 'jelera/vim-javascript-syntax'
+Plugin 'pangloss/vim-javascript'
+Plugin 'nathanaelkane/vim-indent-guides'
+Plugin 'Raimondi/delimitMate'
+
+Plugin 'scrooloose/syntastic'
+  let g:syntastic_check_on_open=1
+
+Plugin 'Valloric/YouCompleteMe'
+  let g:ycm_add_preview_to_completeopt=0
+  let g:ycm_confirm_extra_conf=0
+  set completeopt-=preview
+
 call vundle#end()
 filetype plugin indent on
 "
