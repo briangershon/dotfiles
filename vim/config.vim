@@ -1,6 +1,8 @@
 " Make vim more useful. I think this drops vi compatibility.
 " This allows vim to do a lot more and stray from it's roots.
 set nocompatible
+let mapleader = ","
+set number
 
 " Include all of the bundle configuration.
 source $HOME/.vim/bundles.vim
@@ -13,3 +15,6 @@ endfor
 set expandtab
 set shiftwidth=2
 set softtabstop=2
+
+" Show status line all the time instead of just for split windows
+set laststatus=2

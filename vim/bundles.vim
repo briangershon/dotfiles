@@ -21,6 +21,29 @@ Plugin 'Valloric/YouCompleteMe'
   let g:ycm_confirm_extra_conf=0
   set completeopt-=preview
 
+Plugin 'marijnh/tern_for_vim'
+
+Plugin 'bling/vim-airline'
+  let g:airline#extensions#tabline#enabled=1
+  let g:airline_left_sep=''
+  let g:airline_right_sep=''
+
+Plugin 'edkolev/promptline.vim'
+  let g:promptline_powerline_symbols=0
+  let g:promptline_theme = 'airline'
+  let g:promptline_preset = 'clear'
+
+Plugin 'airblade/vim-gitgutter'
+
+Plugin 'rking/ag.vim'
+Plugin 'kien/ctrlp.vim'
+  let g:ctrlp_user_command='ag %s -l --nocolor -g ""'
+  nnoremap <leader>f :CtrlP<CR>
+  nnoremap <leader>b :CtrlPBuffer<CR>
+  nnoremap <leader>m :CtrlPMRUFiles<CR>
+  nnoremap <leader>t :CtrlPTag<CR>
+"  nnoremap <leader>tb :CtrlPBufTag<CR>
+
 call vundle#end()
 filetype plugin indent on
 "

@@ -15,8 +15,8 @@ fi
 function update_modules {
 	echo -e "\t$1..."
 	pushd ./bundle/$1
-	# npm install
-	# npm update
+	npm install
+	npm update
 	popd
 }
 
@@ -34,6 +34,6 @@ function compile_module {
 
 echo "Removing, updating and installing bundles..."
 vim +PluginClean! +PluginInstall! +qall
-# echo "Updating NPM modules..."
-# update_modules tern_for_vim
+echo "Updating NPM modules..."
+update_modules tern_for_vim
 echo "All synced!"
