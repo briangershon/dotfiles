@@ -18,6 +18,7 @@ For OSX:
 * I install MacVim via <http://code.google.com/p/macvim/#Download> and copy mvim shell helper into `/usr/local/bin` and then symlink `vim` to `mvim` so that Vim can be opened up in either GUI or terminal mode.  Since I'm using a newer python from Homebrew, I have to setup an alias via my .bashrc so the YouCompleteMe Vim bundle works ok without a "Python quit unexpectedly" error:
 
     alias vim="DYLD_FORCE_FLAT_NAMESPACE=1 DYLD_INSERT_LIBRARIES=/usr/local/Cellar/python/2.7.8_1/Frameworks/Python.framework/Versions/2.7/lib/libpython2.7.dylib vim"
+
     alias mvim="DYLD_FORCE_FLAT_NAMESPACE=1 DYLD_INSERT_LIBRARIES=/usr/local/Cellar/python/2.7.8_1/Frameworks/Python.framework/Versions/2.7/lib/libpython2.7.dylib mvim"
 
 
