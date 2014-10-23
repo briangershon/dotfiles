@@ -18,3 +18,6 @@ set softtabstop=2
 
 " Show status line all the time instead of just for split windows
 set laststatus=2
+
+" Show markdown
+autocmd BufNewFile,BufReadPost *.md set filetype=markdown
