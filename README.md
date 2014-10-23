@@ -21,8 +21,9 @@ For OSX:
 
     alias mvim="DYLD_FORCE_FLAT_NAMESPACE=1 DYLD_INSERT_LIBRARIES=/usr/local/Cellar/python/2.7.8_1/Frameworks/Python.framework/Versions/2.7/lib/libpython2.7.dylib mvim"
 
-
 * `brew install the_silver_searcher` for use Ag in CtrlP Vim plugin.
+
+* `brew install reattach-to-user-namespace` for tmux and OSX Yosemite support
 
 Then:
 
