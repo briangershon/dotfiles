@@ -13,7 +13,7 @@ For Linux:
 
 For OSX:
 
-* I manually symlink the following files/folders into `~` with a `.` prefix: `vim`, `vimrc`, `tmux.conf`, `bash_profile`, `bash_rc`, `gitconfig`. For example `ln -s ~/dotfiles/vim .vim`
+* I manually symlink the following files/folders into `~` with a `.` prefix: `vim`, `vimrc`, `tmux.conf`, `bash_profile`, `bash_rc`, `gitconfig`, `rspec` . For example `ln -s ~/dotfiles/vim .vim`
 
 * I install MacVim via <http://code.google.com/p/macvim/#Download> and copy mvim shell helper into `/usr/local/bin` and then symlink `vim` to `mvim` so that Vim can be opened up in either GUI or terminal mode.  Since I'm using a newer python from Homebrew, I have to setup an alias via my .bashrc so the YouCompleteMe Vim bundle works ok without a "Python quit unexpectedly" error:
 
